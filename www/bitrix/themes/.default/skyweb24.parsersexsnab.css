@@ -1,0 +1,55 @@
+#parsersexsnab_section ul.root_section{text-align: center;
+    display: inline-block;}
+/* Логотип модуля в админке */
+.skwb24_parsersexsnab_menu_icon {background: url(icons/skyweb24.parsersexsnab/skw24_ss_small_icon.png) 4px 2px no-repeat;}
+	
+#parsersexsnab_section ul.root_section li{list-style-type:none; text-align:center; margin-bottom:4px;}
+#parsersexsnab_section ul.root_section li ul{margin-top:4px; display:none;}
+#parsersexsnab_section ul.root_section li.parent>.label span{text-decoration:underline;}
+#parsersexsnab_section ul.root_section li .label{display: inline-block; text-align: left;}
+#parsersexsnab_section ul.root_section li.parent>.label{cursor:pointer;}
+#parsersexsnab_section ul.root_section li .label span{width:300px; display: inline-block;}
+#parsersexsnab_section ul.root_section li input[type=number]{margin-left: 10px;}
+
+#parsersexsnab_section button.update_structure, #parsersexsnab_products button.update_products  {
+	border-radius: 4px;
+	cursor: pointer;
+	display: inline-block;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	height: 29px;
+	text-decoration: none;
+	position: relative;
+	vertical-align: middle;
+	-webkit-font-smoothing: antialiased;
+	background-color: #86ad00!important;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.25), inset 0 1px 0 #cbdc00;
+	box-shadow: 0 1px 1px rgba(0,0,0,.25), inset 0 1px 0 #cbdc00;
+	border: solid 1px;
+	border-color: #97c004 #7ea502 #648900;
+	background-image: -webkit-linear-gradient(bottom, #729e00, #97ba00)!important;
+	background-image: -moz-linear-gradient(bottom, #729e00, #97ba00)!important;
+	background-image: -ms-linear-gradient(bottom, #729e00, #97ba00)!important;
+	background-image: -o-linear-gradient(bottom, #729e00, #97ba00)!important;
+	background-image: linear-gradient(bottom, #729e00, #97ba00)!important;
+	color: #fff;
+	text-shadow: 0 1px rgba(0,0,0,0.1);
+	-webkit-font-smoothing: antialiased;
+	padding: 0px 13px 2px;
+	margin-bottom: 20px;
+}
+
+.headerInfoBlock {margin-bottom: 20px; padding: 15px; border: 2px dashed #2980b9; background: rgba(41, 128, 185, 0.1); font-size: 15px; color: #34495e;}
+	.headerInfoBlock div {margin: 5px;}
+		.headerInfoBlock div.dateBlock {}
+			.headerInfoBlock div.dateBlock span {font-weight: bold;}
+		.headerInfoBlock div.versionBlock {}
+			.headerInfoBlock div.versionBlock span {font-weight: bold;}
+			.headerInfoBlock div.versionBlock a.versionNew {}
+		.headerInfoBlock div.buttonsBlock {margin-top: 20px;}
+		.headerInfoBlock div a.infoButton {border-radius: 3px; display: inline-block; height: 15px; padding: 10px 20px; position: relative; border: 1px solid #2980b9; background: #2980b9; margin-right: 15px; text-decoration: none; line-height: 16px; color: #ffffff; font-size: 16px; font-weight: bold; text-shadow: 0 -1px 0 rgba(106,109,111,0.3);}
+			.headerInfoBlock div a.infoButton.question {border: 1px solid #27ae60; background: #27ae60;}
+				.headerInfoBlock div a.infoButton.question:hover {background: #2ecc71;}
+				.headerInfoBlock div a.infoButton.review:hover {background: #3498db;}
+#upload_product_error{display:none;}
